@@ -1,0 +1,144 @@
+@media only screen and (max-width: 768px) {
+    /* cont1 */
+    .cont1{
+        display: none;
+    }
+    /* nav bar */
+    .header{
+        padding-bottom: 25px;
+    }
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 1rem;
+        flex-direction: column;
+        /* background-color: #fff; */
+        background-color: #222;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+
+    .nav-link {
+        color: #fff;
+    }
+
+    .nav-menu.active {
+        position: relative;
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 2.5rem 0;
+    }
+
+    .hamburger {
+        left: 325px;
+        top: 24px;
+        position: absolute;
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    /* form */
+    .form-exwork{
+        margin-top: 0px;
+    }
+    .form-mrleft{
+        margin-left: 7px;
+    }
+    .row-form{
+        padding-top: 15px;
+        width: 380px;
+    }
+    .form-but{
+        margin-top: 0px !important;
+    }
+    .form-but1{
+        margin-top: -20px !important;
+    }
+    .name-bottom{
+        margin-bottom: 21px;
+    }
+    .form{
+        margin-top: 68px;
+        width: 100% !important;
+        position: static;
+    }
+    .but3{
+        padding: 12px 39px;
+        max-width: 761px;
+        max-height: 100px;
+        letter-spacing: 1px;
+        margin-bottom: 10px;
+       }
+       .but3:hover{
+        letter-spacing: 3px;
+       }
+       .but2{
+        padding: 12px 39px;
+        max-width: 761px;
+        max-height: 100px;
+        letter-spacing: 1px;
+        margin-bottom: 10px;
+       }
+       .but2:hover{
+        letter-spacing: 3px;
+       }
+       /*  */
+       /* cont6 */
+       .cont6{
+        margin-top: 55px !important;
+       }
+       .cont6-lastimg{
+        display: none;
+       }
+       .cont6-card1
+       {
+        width: 321px;
+       }   
+       .cont6-card3
+       {
+       margin-left: 0px !important;
+       }  
+
+      /* cont7 */
+       .col7-main{
+        display: none;
+       }
+       /* cont8 */
+       .cont8{
+        display: none;
+       }
+       .cont8-hr{
+        display: none;
+       }
+       /* cont9 */
+       .cont9-img1
+        {
+         width: 336px;
+        }
+       /* footer */
+       .foot-p{
+        font-size: 10px;
+        font-weight: bolder;
+       }
+     
+    
+
+
+}
